@@ -1,0 +1,105 @@
+/* events css  */
+
+.events-container,
+.categories-container,
+.weather-container,
+.datetime-container {
+	background-image: url(../assets/pettern-1.png);
+}
+
+.events-heading,
+.categories-heading,
+.weather-heading,
+.datetime-heading {
+	background-image: url(../assets/pettern-3.png);
+	padding: 10px;
+	color: white;
+}
+
+.event {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.event-content {
+	margin-left: 10px;
+}
+
+.event-title {
+	font-size: 20px;
+	text-decoration: underline;
+	color: white;
+}
+
+.event-date {
+	margin-top: 5px;
+	color: white;
+}
+
+.events-footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+}
+
+.event-arrow {
+	background-color: #09C647;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.more-events {
+	color: white;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* categoires sidebar css */
+
+.categories-container,
+.weather-container,
+.datetime-container {
+	margin-top: 3rem;
+}
+
+.categories {
+	padding: 10px;
+}
+
+.category {
+	padding: 10px 0;
+	color: white;
+	font-size: 1.2rem;
+}
+
+/* weather css */
+
+.weather-api {
+	padding: 10px;
+}
+
+.weather-image {
+	width: 100%;
+	border-radius: 20px;
+}
+
+/* date and time sidebar css */
+
+.datetime-content {
+	padding: 10px;
+	background: url(../assets/pettern-1.png);
+}
+
+.date {
+	color: white;
+	font-size: 20px;
+	margin-top: .5rem;
+}
+
+p.time {
+	color: white;
+	font-size: 2rem;
+	padding-top: 1rem;
+}

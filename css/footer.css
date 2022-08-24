@@ -1,0 +1,37 @@
+/* footer css */
+
+.footer-cover{
+	background-image: url(../assets/pettern-3.png);
+	overflow: hidden;
+}
+.footer-container{
+	margin: 2rem 9rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.col1-content, .col2-content, .col3-content{
+	margin-top: 1rem;
+}
+
+.col1-item, .col2-item, .col3-item{
+	line-height: 2;
+	color: rgba(255, 255, 255, 0.749);
+}
+
+.col1-heading, .col2-heading{
+	color: white;
+}
+
+/* footer bar css */
+
+.footerbar{
+	overflow: hidden;
+	background-image: url('../assets/pettern-2.png');
+}
+.footer-bar{
+	margin: 1rem 9rem;
+}
+.footer-bar p{
+	color: rgba(255, 255, 255, 0.749);
+}

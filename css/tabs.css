@@ -1,0 +1,37 @@
+/* tabs css */
+
+.tabs-container {
+	margin: 3rem 2rem 0;
+	background-image: url(../assets/pettern-1.png);
+}
+.tab-heading-list{
+	display: flex;
+	background-image: url(../assets/pettern-3.png);
+}
+
+.tab-heading-list li.active{
+	background-image: url(../assets/pettern-1.png);
+}
+
+.tab-heading {
+	color: white;
+	font-size: 1.1rem;
+	cursor: pointer;
+	font-weight: 500;
+	padding: 0.7rem;
+	margin: 0 1rem;
+}
+
+.tab-description {
+	color: rgba(255, 255, 255, 0.798);
+	padding: 1rem;
+
+}
+
+[data-tab-content] {
+	display: none;
+}
+
+.active[data-tab-content] {
+	display: block;
+}

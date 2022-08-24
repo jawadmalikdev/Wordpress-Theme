@@ -1,0 +1,155 @@
+/* main cover */
+
+.main-cover {
+	padding: 7rem;
+	background-image: url(../assets/pettern-2.png);
+}
+
+/* setting up grid */
+
+.flex-area {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+	/* background-image: url(../assets/pettern-1.png); */
+}
+
+.main-content {
+	width: calc(100% - 271px);
+	/* background-color: wheat; */
+}
+
+.sidebar {
+	width: 255px;
+}
+
+/* custom post type sports */
+
+.sports-container {
+	display: flex;
+	padding: 0 2rem 2rem 2rem;
+	justify-content: space-around;
+	position: relative;
+}
+
+.sport {
+	background: #1d6351;
+	padding: 1rem 1rem 2rem 1rem;
+	margin: 0 1rem;
+
+}
+
+.sport-title {
+	color: white;
+	text-decoration: underline;
+	margin-top: 1rem;
+}
+
+.sport-image {
+	width: 100%;
+}
+
+/* random post css */
+
+.random-post-container {
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+	margin-top: 3rem;
+}
+
+.random-post-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 100%;
+	padding-left: 2rem;
+	background-image: url(../assets/pettern-3.png);
+	flex-basis: 100%;
+}
+
+.random-post-title {
+	color: white;
+	font-size: 1.5rem;
+}
+
+.random-post-excerpt {
+	color: rgba(255, 255, 255, 0.886);
+	font-size: 1rem;
+	margin-top: 10px;
+}
+
+/* wp posts css */
+.wp-posts-container {
+	display: flex;
+	gap: 2rem;
+
+}
+
+.wp-post {
+	background-image: url(../assets/pettern-1.png);
+	position: relative;
+	margin-top: 3rem
+}
+
+.wp-post-title {
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	padding-left: 1rem;
+}
+
+.wp-post-excerpt {
+	padding-top: .5rem;
+	color: rgba(255, 255, 255, 0.886);
+	text-align: left;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+}
+
+.wp-post-image {
+	width: 100%;
+	height: 241px;
+}
+
+.wp-post-readmore {
+	padding: 1rem 0;
+	font-size: 20px;
+	position: absolute;
+	width: 100%;
+	color: white;
+	text-align: center;
+	top: 100%;
+	background-image: url(../assets/pettern-3.png);
+}
+
+/* social media feed and page */
+
+.social-container {
+	margin-top: 5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.twitter-feed-title,
+.facebook-page-title {
+	color: white;
+}
+
+.fb-page-container,
+.twitter-page-container {
+	margin-top: 1rem;
+	border-radius: 10px;
+	width: 363px;
+	height: 363px;
+	overflow: hidden;
+}
+
+.twitter-feed-image,
+.facebook-page-image {
+	margin-top: 1rem;
+	max-width: 100%;
+	max-height: 363px;
+	border-radius: 10px;
+}

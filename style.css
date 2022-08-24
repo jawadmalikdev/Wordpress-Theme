@@ -1,0 +1,149 @@
+/*!
+Theme Name: wpbrigade
+Theme URI: http://underscores.me/
+Author: Jawad Malik
+Author URI: #
+Description: best wordpress theme for companies
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: wp-brigade
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+wpbrigade is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import 'CSS/header.css';
+@import 'CSS/slider.css';
+@import 'CSS/main+flex.css';
+@import 'CSS/siderbar.css';
+@import 'CSS/tabs.css';
+@import 'CSS/footer.css'; */
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+input[type=search] {
+	padding: .4rem !important;
+}
+
+.slider-content p {
+	color: white;
+}
+
+.slick-list {
+	overflow: hidden !important;
+}
+
+/* css for video popup */
+
+.video-overlay {
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 110;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(91, 100, 87, 0.96);
+	visibility: hidden;
+	opacity: 0;
+	transform: scale(1.09);
+	transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
+	box-sizing: border-box;
+}
+
+.video-overlay--active {
+	visibility: visible;
+	opacity: 1;
+	transform: scale(1);
+}
+
+.video-overlay__close {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	padding: 1rem;
+	cursor: pointer;
+	transition: all 0.3s;
+	background-color: #49d317;
+	line-height: 0.7;
+}
+
+#video_iframe {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+
+/* fixing footer widgets css */
+
+.widget-title {
+	color: white;
+}
+
+.menu-header-menu-container {
+	margin-top: 1rem !important;
+}
+
+.menu-item>a {
+	color: rgba(255, 255, 255, 0.749) !important;
+	line-height: 1.5 !important;
+}
+
+/* fixing sidebar widget css */
+
+.widget_categories>h3,
+.widget_custom_html>h3,
+.sidebar-widget>h3
+{
+	margin-top: 1rem;
+	padding: 10px;
+	font-size: 1.8rem;
+	background-image: url(./assets/pettern-3.png);
+}
+
+.widget_categories>ul {
+	background-image: url(./assets/pettern-1.png);
+}
+
+.widget_categories>ul>li {
+	padding: 10px;
+}
+
+.widget_categories>ul>li>a {
+	font-size: 1.3rem;
+	color: white;
+}
+
+/* fix image css on search page */
+.wp-post-image{
+	max-width: fit-content;
+}

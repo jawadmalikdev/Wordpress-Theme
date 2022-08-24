@@ -1,0 +1,180 @@
+/* start util nav bar links */
+
+a.utilnav-link {
+	color: white;
+	font-weight: 600;
+	padding: .5rem 1rem;
+	margin: 0 .3rem;
+}
+
+.utilnav-links-container {
+	transform: skew(-12deg);
+}
+
+a.utilnav-link-1 {
+	background-image: url(../assets/pettern-1.png);
+}
+
+a.utilnav-link-2 {
+	background-image: url(../assets/pettern-3.png);
+}
+
+/* end util nav bar links */
+
+
+/* start secondary nav bar links */
+
+li {
+	list-style-type: none;
+}
+
+.single-link-container>a {
+	color: white;
+	padding: 1.5rem 1rem;
+	margin: 0 .3rem;
+}
+
+
+.single-link-container>a:hover {
+	background-image: url(../assets/pettern-1.png);
+}
+
+input[type=text] {
+	padding: 8px 20px;
+}
+
+
+/* first drop down */
+
+.first-dropdown-container {
+	position: relative;
+}
+
+.single-link-container:hover .first-dropdown {
+	display: block !important;
+}
+
+.first-dropdown {
+	display: none !important;
+	width: 10rem;
+	position: absolute;
+	background-image: url(../assets/pettern-1.png);
+	margin-top: 1.3rem;
+	margin-left: .3rem;
+
+}
+
+.first-dropdown-link {
+	color: white;
+	width: 100%;
+	display: inline-block;
+	padding: 1rem;
+
+}
+
+.first-dropdown-link:hover {
+	background-image: url(../assets/pettern-3.png);
+}
+
+.first-dropdown-li {
+	margin: 1rem 0;
+}
+
+/* SECOND DROP DOWN */
+.first-dropdown-li {
+	position: relative;
+}
+
+.first-dropdown-li:hover .second-dropdown {
+	display: block;
+}
+
+.second-dropdown {
+	display: none;
+	width: 10rem;
+	position: absolute;
+	background-image: url(../assets/pettern-1.png);
+	left: 10rem;
+	top: 0;
+
+}
+
+.second-dropdown-link {
+	color: white;
+	width: 100%;
+	display: inline-block;
+	padding: 1rem;
+
+}
+
+.second-dropdown-link:hover {
+	background-image: url(../assets/pettern-3.png);
+}
+
+.second-dropdown-li {
+	margin: 1rem 0;
+}
+
+
+
+/*  end secondary nav bar links*/
+
+
+
+/* top navigation bar */
+
+
+.top-bar {
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+}
+
+.close-icon {
+	margin-left: 5rem;
+	background-color: #217F40;
+	padding: .3rem;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+
+
+/* Util nav bar  */
+
+.utilnavbar {
+	background-image: url('../assets/pettern-2.png');
+}
+
+.utilnav-container {
+	margin: 0 13rem;
+	padding: 1rem 0rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+/* secondary navbar */
+
+.secondarynavbar {
+	background-image: url('../assets/pettern-3.png');
+	position: relative;
+	z-index: 10;
+}
+
+.secondarynav-container {
+	background-image: url('../assets/pettern-3.png');
+	margin: 0 13rem;
+	padding: 1rem 0rem;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.secondarynav-links-container {
+	display: flex;
+	flex-wrap: wrap;
+}
