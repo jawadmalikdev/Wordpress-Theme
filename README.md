@@ -1,2 +1,2 @@
 # Wordpress-Theme
- Test theme for wpbrigade.
+A classic WordPress Theme.
